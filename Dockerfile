@@ -1,3 +1,11 @@
+#
+#	Install Wordpress
+#	Install PhpMyadmin
+#	Install SQL database MariaDB Server
+#	Nginx Web Server
+#	S.O -> Debian:buster
+#	Use SSL protocol
+#
 FROM debian:buster
 
 MAINTAINER pcuadrad pcuadrad@student.42madrid.com
