@@ -1,14 +1,6 @@
-#
-#	Install Wordpress
-#	Install PhpMyadmin
-#	Install SQL database MariaDB Server
-#	Nginx Web Server
-#	S.O -> Debian:buster
-#	Use SSL protocol
-#
 FROM debian:buster
 
-MAINTAINER pcuadrad pcuadrad@student.42madrid.com
+LABEL author=pcuadrad email=pcuadrad@student.42madrid.com
 
 ADD srcs/wordpress-5.3.tar.gz /var/www/html/
 
